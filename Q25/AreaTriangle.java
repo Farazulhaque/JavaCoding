@@ -13,6 +13,7 @@ class AreaTriangle {
 		for (int i = 0; i < s.length; i++) {
 			a[i] = Double.parseDouble(s[i]);
 		}
+		in.close();
 		x1 = a[0];
 		y1 = a[1];
 		x2 = a[2];
@@ -39,3 +40,7 @@ class AreaTriangle {
 		System.out.println("The area of the triangle is " + area + "square units.");
 	}
 }
+// Output ->
+// Enter the coordinates of the three points separated by spaces
+// in the order of x1 y1 x2 y2 x3 y3: 1.5 -3.4 4.6 5 9.5 -3.4
+// The area of the triangle is 33.600000000000016square units.
