@@ -23,5 +23,6 @@ public class split_words {
 			System.out.println("\nEnter input string: ");
 			str = scnr.nextLine();
 		}
+		scnr.close();
 	}
 }

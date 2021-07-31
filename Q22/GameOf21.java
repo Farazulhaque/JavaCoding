@@ -50,6 +50,7 @@ public class GameOf21 {
             }
 
         }
+        sc.close();
 
     }
 
@@ -69,11 +70,7 @@ public class GameOf21 {
     // playAgain() to ask user to play again or not
     public static int playAgain() {
         Scanner sc = new Scanner(System.in);
-        Random random = new Random();
-
         // assign new random number to computer
-        int comp = random.nextInt(21);
-        // assign userTotal to 0
         int userTotal = 0;
         System.out.print("Do you want to play again? (y/n)? ");
         String playAgain = sc.next();
@@ -85,6 +82,7 @@ public class GameOf21 {
             // by card(userTotal) into userTotal
             userTotal = card(userTotal);
         }
+        sc.close();
         // return the value of userTotal
         return userTotal;
     }

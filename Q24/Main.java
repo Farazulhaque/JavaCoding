@@ -1,4 +1,13 @@
 public class Main {
+    public static void main(String[] args) {
+        int num = 8;
+        System.out.println("if num = " + num + " then sum = " + sumPositiveEvenNumbers(num));
+        num = 7;
+        System.out.println("if num = " + num + " then sum = " + sumPositiveEvenNumbers(num));
+        num = 0;
+        System.out.println("if num = " + num + " then sum = " + sumPositiveEvenNumbers(num));
+    }
+
     static int sumPositiveEvenNumbers(int num) {
         if (num == 0) {
             return 0;
@@ -9,13 +18,4 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
-        int num = 8;
-        System.out.println("if num = " + num + " then sum = " + sumPositiveEvenNumbers(num));
-        num = 7;
-        System.out.println("if num = " + num + " then sum = " + sumPositiveEvenNumbers(num));
-        num = 0;
-        System.out.println("if num = " + num + " then sum = " + sumPositiveEvenNumbers(num));
-    }
 }
-

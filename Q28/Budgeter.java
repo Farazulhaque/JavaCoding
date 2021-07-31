@@ -62,5 +62,6 @@ public class Budgeter {
                     + " more than you earned this month");
             System.out.println("You're a big spender.");
         }
+        console.close();
     }
 }

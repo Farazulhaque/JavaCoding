@@ -27,6 +27,6 @@ public class Main {
         System.out.println("Custom Paintings\n123, main St\nPhoenix, AZ 85701");
         System.out.println("Customer name: " + name);
         System.out.println("The surface to be painted is " + surfaceArea + " sq ft");
-
+        myObj.close();
     }
 }

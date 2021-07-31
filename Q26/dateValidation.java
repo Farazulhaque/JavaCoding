@@ -17,6 +17,6 @@ public class dateValidation {
         } else {
             System.out.println(month + "/" + day + "/" + year + " is an invalid date.");
         }
-
+        myObj.close();
     }
 }
