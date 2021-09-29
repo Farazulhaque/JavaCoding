@@ -5,8 +5,6 @@ public class Ingredient {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
 
-        Ingredient newIngredient = new Ingredient(); // Creates New Ingredient "newIngredient" of Class "Ingredient"
-
         // Initializes Variables
         String nameOfIngredient = "";
         String unitMeasurement = ""; // Options: Cup(s), Tbsp(s), Tsp(s), or Gram(s)
@@ -123,7 +121,7 @@ public class Ingredient {
         else {
             System.out.println("Error: That is not a number. Sorry, you are out of attempts.");
         }
-
+        scnr.close();
         // Calculate total calories for the ingredient
         totalCalories = ingredientAmount * numberCaloriesPerUnit;
 
