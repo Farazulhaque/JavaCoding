@@ -10,6 +10,7 @@ public class Game {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter your name: ");
         String name = input.next();
+        input.close();
         System.out.println();
         System.out.println("Hello " + name + ". Welcome to the game");
         System.out.println("Enter your choice (0=rock, 1=paper, 2=scissors)");
@@ -60,6 +61,7 @@ public class Game {
     public static String getPlayerMove() {
         Scanner in = new Scanner(System.in);
         int input = in.nextInt();
+        in.close();
         System.out.println();
         String playermove = "Null";
         if (input == 0)
