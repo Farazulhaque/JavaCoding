@@ -58,5 +58,6 @@ public class MortgageLoanCalculator {
                 again = false;
             }
         }
+        scan.close();
     }
 }
