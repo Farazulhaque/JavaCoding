@@ -35,5 +35,7 @@ public class ClassesAndMethods {
         String sentence = sc.nextLine();
         System.out.println("We have replaced \"like\" with \"dislike\" and turn the whole sentence to uppercases.");
         System.out.println("The resulting sentence is: " + sentence.replace("like", "dislike").toUpperCase());
+
+        sc.close();
     }
 }
