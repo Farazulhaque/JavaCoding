@@ -12,12 +12,12 @@ public class Main {
         System.out.print("What is the height of the ceiling in feet: ");
         String height = myObj.nextLine();
         System.out.print("Do you want a different color for the trim? ");
-        String trim = myObj.nextLine();
+        // String trim = myObj.nextLine();
         System.out.print("Do you want a faux finish? ");
         String faux = myObj.nextLine();
         if ((faux.toLowerCase()).equals("yes") == true) {
             System.out.print("How many colors do you want in your faux finish? ");
-            String colors = myObj.nextLine();
+            // String colors = myObj.nextLine();
         }
         int l = Integer.parseInt(length);
         int w = Integer.parseInt(width);

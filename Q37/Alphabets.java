@@ -1,3 +1,4 @@
+package Q37;
 
 // import Scanner class to get user input
 import java.util.Scanner;
@@ -10,6 +11,7 @@ public class Alphabets {
         Scanner input = new Scanner(System.in);
         // create text varisble to store user input string
         String text = input.nextLine();
+        input.close();
         // print user input
         System.out.println("Text = " + text);
         // loop to count number of alphabets in the text

@@ -1,3 +1,5 @@
+package Q39;
+
 import java.util.Scanner;
 
 public class ReverseNumber {
@@ -6,7 +8,7 @@ public class ReverseNumber {
         System.out.print("Enter a Number: ");
         int num = sc.nextInt();
         int reversed = 0;
-
+        sc.close();
         // run loop until num becomes 0
         while (num != 0) {
 

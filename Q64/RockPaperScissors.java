@@ -65,6 +65,7 @@
 //         return playermove;
 //     }
 // }
+package Q64;
 
 import java.util.Scanner;
 

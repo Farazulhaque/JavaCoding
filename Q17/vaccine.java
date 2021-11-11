@@ -1,3 +1,5 @@
+package Q17;
+
 import java.util.Scanner;
 
 public class vaccine {
@@ -15,6 +17,7 @@ public class vaccine {
         System.out.println("2. Astrazeneca");
         System.out.println("3. Moderna");
         int choice = sc.nextInt();
+        sc.close();
         if (choice == 1) {
             System.out.println("The vaccines available in these locations: ");
             System.out.println("King Abdullah Medical City Specialist Hospital (KAMC)");

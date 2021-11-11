@@ -1,3 +1,5 @@
+package Q46;
+
 import java.util.Scanner;
 
 class Main {
@@ -8,6 +10,7 @@ class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value to search for: ");
         int search = sc.nextInt();
+        sc.close();
         int res = search2D_Array(arr, search);
         if (res == -1) {
             System.out.println("The element is not present in the array");

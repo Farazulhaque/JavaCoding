@@ -25,6 +25,7 @@
 
 //     }
 // }
+package Q20;
 
 import java.util.Scanner;
 
@@ -44,7 +45,7 @@ public class Vowels {
         if (n == 1)
             return isVowel(str.charAt(n - 1));
 
-        // calling recursively 
+        // calling recursively
         return countVowels(str, n - 1) + isVowel(str.charAt(n - 1));
     }
 
@@ -55,5 +56,6 @@ public class Vowels {
 
         // Total numbers of Vowel
         System.out.println("Number of vowels: " + countVowels(sentence, sentence.length()));
+        sc.close();
     }
 }

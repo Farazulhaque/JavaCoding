@@ -1,6 +1,8 @@
-public class RomanNumeral {
-public static final int MAX_SIZE = 20;
+package Q62;
 
-public String numeral;
-public int value = 0;
+public class RomanNumeral {
+    public static final int MAX_SIZE = 20;
+
+    public String numeral;
+    public int value = 0;
 }

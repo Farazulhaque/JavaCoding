@@ -1,3 +1,5 @@
+package Q36;
+
 import java.util.Scanner;
 
 public class DrawZ {
@@ -5,6 +7,7 @@ public class DrawZ {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter odd number > 2: ");
         int n = sc.nextInt();
+        sc.close();
         if (n < 2 || n % 2 == 0)
             System.out.println("Invalid number. Bye bye.");
         else {

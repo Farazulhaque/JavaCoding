@@ -1,5 +1,7 @@
+package Q9;
+
 import java.util.Scanner;
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 public class DataVisualizer {
     public static void main(String[] args) {
@@ -42,6 +44,6 @@ public class DataVisualizer {
                 loop = false;
             }
         } while (loop);
-
+        sc.close();
     }
 }

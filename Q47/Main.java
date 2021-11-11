@@ -1,3 +1,5 @@
+package Q47;
+
 import java.util.Scanner;
 
 public class Main {
@@ -9,9 +11,9 @@ public class Main {
         int a = sc.nextInt();
         System.out.print("b = ");
         int b = sc.nextInt();
-        if (a < 3 || a > 21 || b < 3 || b > 21) {
+        sc.close();
+        if (a < 3 || a > 21 || b < 3 || b > 21)
             System.out.println("Incorrect Input!");
-        }
         if (a < 3)
             System.out.println("Number a is smaller than 3");
         if (b < 3)
@@ -31,5 +33,3 @@ public class Main {
         }
     }
 }
-
-

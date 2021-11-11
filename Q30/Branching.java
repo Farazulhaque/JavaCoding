@@ -1,3 +1,5 @@
+package Q30;
+
 public class Branching {
     // Step 1: Basic Mathematical comparisons
     /**

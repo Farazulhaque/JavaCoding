@@ -1,3 +1,5 @@
+package Q49;
+
 import java.util.Scanner;
 
 public class VolumeCylinder {
@@ -12,7 +14,7 @@ public class VolumeCylinder {
         radius = sc.nextDouble();
         System.out.print("Enter height of cylinder: ");
         height = sc.nextDouble();
-
+        sc.close();
         volume = PI * radius * radius * height;
 
         System.out.println("\nRadius: " + radius);

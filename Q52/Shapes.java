@@ -1,3 +1,5 @@
+package Q52;
+
 import java.util.Scanner;
 
 public class Shapes {
@@ -22,6 +24,7 @@ public class Shapes {
         } else {
             System.out.print("Unknown Shape!");
         }
+        sc.close();
     }
 
     public static void printLine(int length) {

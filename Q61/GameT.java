@@ -9,7 +9,7 @@ public class GameT {
         // open class Game //
         Scanner console = new Scanner(System.in); // creates Scanner object and calls it console
         char[] moves = new char[25];//
-        int[] array = new int[25];
+        // int[] array = new int[25];
         int j = 0;
         int won = 0; // keep track of human wins
         int tie = 0; // keep track of ties
@@ -26,6 +26,7 @@ public class GameT {
             PrintStream output = new PrintStream(f);
             System.out.println("Welcome, " + name + " to the game of rock, paper, scissors.");
             System.out.println();
+            output.close();
         }
         // creates file by name entered
         else {
@@ -42,7 +43,9 @@ public class GameT {
             System.out.println("\t tied " + tie);
             System.out.println();
             System.out.println("Here is a reminder of how the game is played.");
+            input.close();
         } //
+
         System.out.println("Welcome, " + name + " to the game of rock, paper, scissors.");
         explain(); // calls method to explain the game
         char choice = 'a';// declare storage for user move
@@ -93,6 +96,8 @@ public class GameT {
         for (int i = 0; i < j * 2; i++) //
             System.out.print(" " + moves[i]); //
         System.out.println();
+        output.close();
+        console.close();
     }
 
     // write data to the file // store variable won // store space then variable
@@ -133,7 +138,7 @@ public class GameT {
             return 'p';
         else
             return 's';
-    } // closes method computer   }
+    } // closes method computer }
 
     public static int declareWinner(char user, char machine) {// returns a value, uses two parameters
         if ((user == 'r' && machine == 's') || (user == 'p' && machine == 'r') || (user == 's' && machine == 'p')) {
@@ -152,4 +157,3 @@ public class GameT {
 // close method }// close class Game /*The moves are evaluated to determine the
 // winner The winner is determined: rock defeats sissors sissors defeats paper
 // paper defeats rock tie */
-

@@ -1,3 +1,5 @@
+package Q42;
+
 import java.lang.Math;
 
 public class Main {

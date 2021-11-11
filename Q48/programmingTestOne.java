@@ -1,8 +1,9 @@
 // Name
 // Course
+package Q48;
 
 import java.util.Scanner;
-import java.util.Random;
+// import java.util.Random;
 
 public class programmingTestOne {
     static final double PI = 3.1415926536;
@@ -60,5 +61,6 @@ public class programmingTestOne {
                 System.out.println("Invalid Choice.");
                 break;
         }
+        sc.close();
     }
 }

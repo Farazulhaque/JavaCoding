@@ -1,3 +1,5 @@
+package Q38;
+
 import java.util.Scanner;
 
 public class DecimalToOctal {
@@ -8,7 +10,7 @@ public class DecimalToOctal {
         // Input the decimal number
         System.out.print("Enter a Decimal Number: ");
         int decimal = in.nextInt();
-
+        in.close();
         // loop until the decimal number is not 0
         while (decimal > 0) {
             remainder = decimal % 8; // compute remainder

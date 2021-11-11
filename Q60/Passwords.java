@@ -1,3 +1,5 @@
+package Q60;
+
 import java.util.Scanner;
 
 public class Passwords {

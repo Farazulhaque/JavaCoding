@@ -1,3 +1,5 @@
+package Q7;
+
 import java.util.Scanner;
 
 public class RomanNumeralsXYY {
@@ -41,5 +43,6 @@ public class RomanNumeralsXYY {
             System.out.println("That is not a valid number. \nPlease enter a number between 1 - 10");
             break;
         }
+        sc.close();
     }
 }

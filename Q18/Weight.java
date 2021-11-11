@@ -1,3 +1,5 @@
+package Q18;
+
 import java.util.*;
 
 class userWeight {
@@ -37,6 +39,7 @@ class userWeight {
         } else {
             System.out.println("Error: The size of the array cannot be negative!!");
         }
+        sc.close();
 
     }
 }

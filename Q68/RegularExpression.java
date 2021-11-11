@@ -1,3 +1,4 @@
+package Q68;
 
 import java.util.*;
 import java.util.regex.*;
@@ -9,7 +10,7 @@ public class RegularExpression {
         String sequence = sc.nextLine();
         System.out.print("Pattern: ");
         String pattern = sc.nextLine();
-
+        sc.close();
         matchPattern(sequence, pattern);
     }
 

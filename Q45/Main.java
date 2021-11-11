@@ -1,3 +1,5 @@
+package Q45;
+
 public class Main {
     public static void main(String[] args) {
         int[] arr1 = { 10, 3, 8, 1, 5 };

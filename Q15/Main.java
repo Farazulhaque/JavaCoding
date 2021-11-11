@@ -1,3 +1,5 @@
+package Q15;
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input a string sentence: ");
         String sentence = sc.nextLine();
-
+        sc.close();
         // Counting Number of words
         int countWords = 0;
         char ch[] = new char[sentence.length()];

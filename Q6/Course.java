@@ -1,3 +1,5 @@
+package Q6;
+
 import java.util.*;
 
 public class Course {
@@ -19,7 +21,7 @@ public class Course {
             total += array[i];
         }
         avg = total / 10;
-
+        sc.close();
         System.out.println("Student ID: " + id);
         System.out.println("Total marks: " + total);
         System.out.println("Average Marks: " + avg);

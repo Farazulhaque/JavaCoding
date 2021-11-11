@@ -10,6 +10,7 @@ public class Lottery {
         String name = sc.next();
         System.out.print("Enter cash amount: ");
         double cash = sc.nextDouble();
+        System.out.println("Hello " + name);
         int[] userNum = new int[5];
         String answer = "y";
         while (cash > 0 && answer.equals("y")) {
@@ -54,5 +55,6 @@ public class Lottery {
             System.out.print("Do you want to play again? [y/n]: ");
             answer = sc.next();
         }
+        sc.close();
     }
 }

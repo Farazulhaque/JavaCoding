@@ -32,7 +32,7 @@ public class Budgeter {
 
         } else {
             System.out.print("How many categories of expense? ");
-            int expense_categories = console.nextInt();
+            // int expense_categories = console.nextInt();
             System.out.print("    Next expense amount? ");
             float expense = console.nextFloat();
             total_expense = expense * 31;

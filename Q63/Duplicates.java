@@ -27,6 +27,8 @@
 //     }
 // }
 
+package Q63;
+
 public class Duplicates {
 
     public static int removeduplicates(int a[], int n) {

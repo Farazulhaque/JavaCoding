@@ -1,3 +1,5 @@
+package Q3;
+
 import java.util.ArrayList;
 import java.util.*;
 import java.text.DecimalFormat;
@@ -22,5 +24,6 @@ public class Main {
         avg = total / marks.size();
         System.out.println("Total of the marks is: " + total); // print total marks
         System.out.println("Average of the marks is: " + df.format(avg)); // print average marks
+        sc.close();
     }
 }

@@ -1,3 +1,5 @@
+package Q16;
+
 import java.util.Scanner;
 
 public class DrawHalfArrow {

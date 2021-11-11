@@ -1,3 +1,5 @@
+package Q12;
+
 public class CountChar {
     public static void main(String[] args) {
         String text = "Tony Lowe";

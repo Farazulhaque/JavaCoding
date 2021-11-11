@@ -1,3 +1,5 @@
+package Q11;
+
 public class SwapCase {
     public static void main(String[] args) {
         String text = "Tony Lowe";

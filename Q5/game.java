@@ -1,3 +1,5 @@
+package Q5;
+
 import java.util.*;
 import java.util.Random;
 
@@ -35,6 +37,7 @@ public class game {
                 count += 1;
             }
         }
+        sc.close();
         System.out.println("=================================================================");
         System.out.println("The number of rounds played by the user: " + round);
         System.out.println("The number of guesses used by the player: " + count);

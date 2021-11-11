@@ -1,3 +1,5 @@
+package Q40;
+
 import java.util.Scanner;
 
 public class Sum1 {
@@ -6,6 +8,7 @@ public class Sum1 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         number = sc.nextInt();
+        sc.close();
         boolean lessThan10 = false;
         // loop to check sum is less than 10
         while (lessThan10 == false) {

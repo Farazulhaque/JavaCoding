@@ -1,3 +1,5 @@
+package Q44;
+
 import java.lang.Math;
 import java.util.Scanner;
 
@@ -31,5 +33,6 @@ public class Main {
         } else {
             System.out.println("Invalid choice.");
         }
+        sc.close();
     }
 }

@@ -40,5 +40,6 @@ public class RestuarantOrder {
                 System.out.println("Error ... Please enter a valid choice!");
             }
         } while (choice != 6);
+        sc.close();
     }
 }

@@ -1,4 +1,4 @@
-import java.lang.*;
+package Q66;
 
 public class ProgressPercentage {
     public static void main(String[] args) {

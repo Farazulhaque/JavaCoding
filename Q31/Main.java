@@ -1,3 +1,5 @@
+package Q31;
+
 public class Main {
   public static void friendlyNumbers(int n1, int n2) {
     char firstOfn1 = (Integer.toString(n1)).charAt(0);

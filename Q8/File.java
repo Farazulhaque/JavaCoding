@@ -1,3 +1,5 @@
+package Q8;
+
 import java.io.FileWriter;
 import java.util.*;
 
@@ -26,5 +28,6 @@ public class File {
                 System.out.println(e);
             }
         }
+        sc.close();
     }
 }

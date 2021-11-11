@@ -1,3 +1,5 @@
+package Q4;
+
 import java.util.Scanner;
 import java.lang.Math; // Needed to use Math.round()
 
@@ -18,7 +20,7 @@ public class pool {
         double cost = s.nextDouble();
         System.out.print("Enter leak rate in gallons per day: ");
         double leak = s.nextDouble();
-
+        s.close();
         System.out.println("========================================================================");
         System.out.printf("The pool owner name is %s\n", name);
         System.out.printf("The pool needs %.2f gallons of water which costs %.2f dollars\n", vol, vol * cost);

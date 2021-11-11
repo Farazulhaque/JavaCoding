@@ -1,4 +1,4 @@
-public class Main {
+class Sum {
     public static void main(String[] args) {
         int num = 8;
         System.out.println("if num = " + num + " then sum = " + sumPositiveEvenNumbers(num));

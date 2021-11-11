@@ -1,3 +1,5 @@
+package Q19;
+
 import java.io.*;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -41,4 +43,3 @@ public class Main {
 
     }
 }
-

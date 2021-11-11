@@ -1,3 +1,5 @@
+package Q59;
+
 import java.util.Scanner;
 
 public class LeastCommonMultiple {

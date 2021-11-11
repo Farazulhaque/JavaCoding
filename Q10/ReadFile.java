@@ -1,3 +1,5 @@
+package Q10;
+
 import java.io.File; // Import the File class
 import java.io.FileNotFoundException; // Import this class to handle errors
 import java.util.Scanner; // Import the Scanner class to read text files
@@ -45,7 +47,7 @@ public class ReadFile {
                         total += 1;
                     }
                 }
-                System.out.println("Total digits: "+ total + "\n");
+                System.out.println("Total digits: " + total + "\n");
                 for (int i = 0; i < digits.length; i++) {
                     System.out.println("Count " + i + ": " + digits[i]);
                 }

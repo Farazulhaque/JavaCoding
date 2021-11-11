@@ -1,3 +1,5 @@
+package Q29;
+
 import java.util.Scanner;
 
 public class split_words {

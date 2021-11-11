@@ -1,3 +1,5 @@
+package Q50;
+
 import java.util.Scanner;
 
 public class Ingredient {

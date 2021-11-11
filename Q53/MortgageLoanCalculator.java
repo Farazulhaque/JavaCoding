@@ -1,3 +1,5 @@
+package Q53;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -28,6 +30,7 @@ public class MortgageLoanCalculator {
 
             int numOfInterest = (int) ((endInterest - startInterest) / incrementPercent) + 1;
             int numOfYear = (int) ((secondYear - firstYear) / yearIncrement) + 1;
+            System.out.println(numOfYear); //only use
             DecimalFormat df = new DecimalFormat("0.0000");
             System.out.printf("%5s %10s%10s%10s%10s", "Rate", "| 15 Years |", "20 Years |", "25 Years |", "30 Years |");
             System.out.println();

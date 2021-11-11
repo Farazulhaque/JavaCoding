@@ -1,3 +1,5 @@
+package Q51;
+
 import java.util.Scanner;
 
 public class vaccinationReport {

@@ -1,6 +1,6 @@
-import java.util.*;
+package Q55;
 
-import javax.script.ScriptContext;
+import java.util.*;
 
 public class RockPaperScissors {
     static final int ROCK = 111, PAPER = 211, SCISSORS = 311, YOU_WIN = 400, COMP_WIN = 500, DRAW = 600;
@@ -30,7 +30,7 @@ public class RockPaperScissors {
         System.out.println("========GAME OVER========");
         System.out.println("       FINAL SCORE:");
         printCurrentScore(yourScore, compScore);
-
+        sc.close();
     }
 
     public static void printCurrentScore(int yourScore, int compScore) {
@@ -53,7 +53,7 @@ public class RockPaperScissors {
         else
             compChoice = SCISSORS;
 
-        if (userInput.equals('R'))
+        if (userInput.equals("R"))
             yourChoice = ROCK;
         else if (input == 2)
             yourChoice = PAPER;

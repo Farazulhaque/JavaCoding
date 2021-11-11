@@ -1,3 +1,5 @@
+package Q35;
+
 import java.util.Scanner;
 
 public class Arrays {
@@ -34,5 +36,6 @@ public class Arrays {
                 System.out.print(array[i]);
         }
         System.out.println("]");
+        sc.close();
     }
 }

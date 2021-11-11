@@ -1,3 +1,5 @@
+package Q56;
+
 public class Main {
     public static void main(String[] args) {
         getSmallest(0, 0);
@@ -53,4 +55,3 @@ public class Main {
         }
     }
 }
-

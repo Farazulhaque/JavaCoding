@@ -1,9 +1,10 @@
+package Q34;
+
 import java.util.*;
 
-public class Main {
+public class StringFunctions {
     public static void main(String[] args) {
         String username, ic, storeusername, storeic;
-        int usernamelength, iclength;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter username: ");
         username = sc.next();
@@ -22,6 +23,7 @@ public class Main {
             System.out.println("Invalid username");
             storeusername = "Default name";
         }
+        sc.close();
         System.out.println(storeusername);
     }
 }
