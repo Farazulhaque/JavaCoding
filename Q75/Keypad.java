@@ -7,6 +7,7 @@ public class Keypad {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a digit: ");
         int digit = sc.nextInt();
+        sc.close();
         switch (digit) {
         case 2:
             System.out.println("ABC");
