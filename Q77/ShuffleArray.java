@@ -29,5 +29,3 @@ public class ShuffleArray {
         System.out.print("]");
     }
 }
-
-
