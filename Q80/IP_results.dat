@@ -1,0 +1,25 @@
+
+The list of students name and mark: 
+Amal 70
+Salam 60
+Saeed 94
+Ahmad 56
+Alia 45
+Samira 88
+Amira 90
+Amina 65
+Amani 85
+
+The following Student(s) got the lowest mark: 45
+Alia
+
+The following Student(s) got the highest mark: 94
+Saeed
+
+The following Student(s) gota mark greater than average class mark: 72
+Saeed
+Samira
+Amira
+Amani
+
+
