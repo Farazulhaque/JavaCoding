@@ -15,7 +15,6 @@ public class Mark {
         // }
 
         int i = 0;
-        int j = 0;
         while (true) {
             System.out.print("Enter Name or enter @@ to exit: ");
             String n = sc.next();
@@ -31,7 +30,6 @@ public class Mark {
             else
                 marks[i] = m;
             i++;
-            j++;
         }
         sc.close();
 
