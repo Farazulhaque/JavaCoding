@@ -46,7 +46,7 @@ public class Processor {
         }
 
         // Provides us the first word to start our search with
-        String firstWord = basis[0];
+        // String firstWord = basis[0];
 
         // maxCount holds the highest number of occurances "so far"
         int maxCount = 0;
