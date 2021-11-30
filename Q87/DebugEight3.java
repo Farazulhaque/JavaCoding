@@ -18,6 +18,7 @@ public class DebugEight3 {
         System.out.println(prompt);
         entry = input.next();
         plan = entry.charAt(0);
+        input.close();
         for (x = 0; x < floorPlans.length; x++) {
             if (plan == floorPlans[x])
                 fp = x;
