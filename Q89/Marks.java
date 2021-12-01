@@ -64,5 +64,6 @@ public class Marks {
         weighted_average_marks = marks_credit / total_credits;
         System.out.printf("%-65s", "Weighted Average Marks as at " + d + ": ");
         System.out.print(weighted_average_marks);
+        sc.close();
     }
 }
