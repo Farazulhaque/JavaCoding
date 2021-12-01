@@ -16,7 +16,6 @@ public class Marks {
         System.out.print("Enter today's date (Format: DD/MMM/YYYY): ");
         String d = sc.nextLine();
         System.out.println();
-        boolean cont = true;
         int i = 0;
 
         while (i < animals.length) {
