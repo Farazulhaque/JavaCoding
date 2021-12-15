@@ -41,7 +41,7 @@ public class Main {
             plant.smell();
         }
         System.out.println("-------");
-        Plant plant;
+        // Plant plant;
         new Flower().smell();
         // System.out.println("-------");
         // Cannot instantiate the type Plant
