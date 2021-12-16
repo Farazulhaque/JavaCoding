@@ -35,7 +35,7 @@ public class PokerHands {
         }
         input.close();
         System.out.println(Arrays.toString(deck) + "\n\n");
-        int r = getPokerHand();
+        // int r = getPokerHand();
         for (int i = 0; i < 52; i++) {
 
             String rank = ranks[(deck[i] % 13)];
