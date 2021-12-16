@@ -35,7 +35,7 @@ public class PokerHands {
         }
         input.close();
         System.out.println(Arrays.toString(deck) + "\n\n");
-
+        int r = getPokerHand();
         for (int i = 0; i < 52; i++) {
 
             String rank = ranks[(deck[i] % 13)];
@@ -45,4 +45,66 @@ public class PokerHands {
         }
         System.out.println(pokerHands[0]);
     }
+
+    public static int getPokerHand() {
+        int rank = 0;
+        if (isRoyalFlush() == true) {
+            rank = 1;
+        } else if (isStraightFlush() == true) {
+            rank = 2;
+        } else if (isFourOfAKind() == true) {
+            rank = 3;
+        } else if (isFlush() == true) {
+            rank = 4;
+        } else if (isStraight() == true) {
+            rank = 5;
+        } else if (isThreeOfAKind() == true) {
+            rank = 6;
+        } else if (isTwoPair() == true) {
+            rank = 7;
+        } else if (isPair() == true) {
+            rank = 8;
+        } else if (isHighCard() == true) {
+            rank = 9;
+        }
+        return rank;
+    }
+
+    private static boolean isRoyalFlush() {
+        return false;
+    }
+
+    private static boolean isHighCard() {
+        return false;
+    }
+
+    private static boolean isPair() {
+        return false;
+    }
+
+
+    private static boolean isStraightFlush() {
+        return false;
+    }
+
+    private static boolean isFourOfAKind() {
+        return false;
+    }
+
+    private static boolean isFlush() {
+        return false;
+    }
+
+    private static boolean isStraight() {
+        return false;
+    }
+
+    private static boolean isThreeOfAKind() {
+        return false;
+    }
+
+    private static boolean isTwoPair() {
+        return false;
+    }
+
 }
