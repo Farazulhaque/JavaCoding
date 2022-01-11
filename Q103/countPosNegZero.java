@@ -25,6 +25,6 @@ public class countPosNegZero {
         System.out.println("Number of positive integer is " + positiveCount);
         System.out.println("Number of negative integers is " + negativeCount);
         System.out.println("Numner of zeros is " + zero);
-
+        sc.close();
     }
 }
