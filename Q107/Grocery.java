@@ -61,6 +61,6 @@ public class Grocery {
         System.out.printf("\n%-20s: $%5s", "Total Cost", String.format("%.2f", total_cost));
         System.out.printf("\n%-20s: $%5s", "Item Count", item_count);
         System.out.printf("\n%-20s: $%5s", "Average Item Cost", String.format("%.2f", avg_cost));
-
+        sc.close();
     }
 }
