@@ -15,5 +15,6 @@ public class ValueChecker {
         } else {
             System.out.println("That is neither lucky nor unlucky");
         }
+        in.close();
     }
 }
