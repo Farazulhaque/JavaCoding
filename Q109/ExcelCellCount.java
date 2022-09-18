@@ -8,7 +8,7 @@ public class ExcelCellCount {
 
         for (int j = 'A'; j >= 'A' && j <= 'Z'; j++) {
             num += 1;
-            if (s1.charAt(i) == j) {
+            if (s1.charAt(num) == j) {
                 break;
             }
         }
