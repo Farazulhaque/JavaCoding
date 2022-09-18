@@ -36,5 +36,7 @@ public class Matrix {
             }
             System.out.print(sum + " ");
         }
+
+        sc.close();
     }
 }

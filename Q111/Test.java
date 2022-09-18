@@ -32,6 +32,6 @@ public class Test {
 				System.out.println("The entered vector was processed in " + total_time + " milliseconds.");
 			}
 		}
-
+		sc.close();
 	}
 }
