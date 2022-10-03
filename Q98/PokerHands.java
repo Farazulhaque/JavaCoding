@@ -82,7 +82,6 @@ public class PokerHands {
         return false;
     }
 
-
     private static boolean isStraightFlush() {
         return false;
     }

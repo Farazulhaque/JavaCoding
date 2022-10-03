@@ -18,26 +18,26 @@ public class RestuarantOrder {
         do {
             choice = sc.nextInt();
             switch (choice) {
-            case 1:
-                totalPrice += 5;
-                break;
-            case 2:
-                totalPrice += 3;
-                break;
-            case 3:
-                totalPrice += 10;
-                break;
-            case 4:
-                totalPrice += 15;
-                break;
-            case 5:
-                totalPrice += 20;
-                break;
-            case 6:
-                System.out.println("The total price of your order  = " + totalPrice);
-                break;
-            default:
-                System.out.println("Error ... Please enter a valid choice!");
+                case 1:
+                    totalPrice += 5;
+                    break;
+                case 2:
+                    totalPrice += 3;
+                    break;
+                case 3:
+                    totalPrice += 10;
+                    break;
+                case 4:
+                    totalPrice += 15;
+                    break;
+                case 5:
+                    totalPrice += 20;
+                    break;
+                case 6:
+                    System.out.println("The total price of your order  = " + totalPrice);
+                    break;
+                default:
+                    System.out.println("Error ... Please enter a valid choice!");
             }
         } while (choice != 6);
         sc.close();

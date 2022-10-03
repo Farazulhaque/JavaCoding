@@ -1,3 +1,5 @@
+package Q112;
+
 public class Boxcars {
 	public static void main(String[] args) {
 		int dice1 = 0;
